@@ -1,0 +1,185 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #085596;
+    height: 36px;
+}
+
+.sign_menu{
+
+}
+
+.sign_item {
+    display: block;
+    float: right;
+    align-content: center;
+    padding: 8px;
+    height: 20px;
+}
+
+.sign_item:hover{
+    background: linear-gradient(#50afdc, #2e7ac4);
+}
+
+.sign_item a{
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1;
+    text-decoration: none;
+}
+
+.navbar_item{
+    display: block;
+    float: right;
+    width: auto;
+    height: 18px;
+    text-align: center;
+    border: 1px solid transparent;
+    align-content: center;
+    padding: 8px;
+}
+
+.navbar_item:hover{
+    background-color: #4eabda;
+}
+
+.navbar_item:hover a{
+    color: #ffffff;
+}
+
+.navbar_item a{
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(96, 181, 237);
+    line-height: 1;
+    text-decoration: none;
+}
+
+.line{
+    border-right: 1px solid #56a2dc;
+}
+
+section{
+    margin: 23% auto;
+    height: 615px;
+    width: 560px;
+}
+
+.head_register{
+    position: relative;
+    height: 63px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+    line-height: normal;
+}
+
+.head_text{
+    display: block;
+    position: absolute;
+    margin: 21px 213px;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.667;
+}
+
+.register_menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 550px;
+    padding: 35px;
+}
+
+.input_field{
+    margin: 18px 105px;
+}
+
+.OU {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.143;
+    text-align: center;
+    margin: 30px;
+}
+
+.input_field input:hover{
+    background-color: #1b5288;
+    box-shadow: 0 0 4px 2px rgba(70,127,171,1);
+}
+
+.input_field input{
+    background-color: #101010;
+    height: 35px;
+    width: 275px;
+    border: none;
+    padding-left: 17px;
+    color: white;
+}
+
+.accept_box{
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(204, 204, 204);
+    line-height: 1.143;
+    margin-left: 103px;
+    margin-top: 22px;
+}
+
+.accept_bottom input{
+    height: 36px;
+    width: 150px;
+    background: linear-gradient(#4faddb, #2e7ac4);
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.143;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+.agree{
+    margin-left: 97px;
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(204, 204, 204);
+    line-height: 1.455;
+}
+
+.Privacy_Policy{
+    margin-left: 185px;
+}
+
+.Privacy_Policy a{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(204, 204, 204);
+    line-height: 1.455;
+    margin-top: 5px;
+}
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+    url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
