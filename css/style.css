@@ -19,6 +19,10 @@ nav{
     align-content: center;
     padding: 8px;
     height: 20px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1;
 }
 
 .sign_item:hover{
@@ -30,6 +34,9 @@ nav{
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: rgb(254, 254, 254);
     line-height: 1;
+}
+
+.none_decore{
     text-decoration: none;
 }
 
@@ -65,7 +72,7 @@ nav{
 }
 
 section{
-    margin: 23% auto;
+    margin: 10% auto;
     height: 615px;
     width: 560px;
 }
